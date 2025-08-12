@@ -68,3 +68,51 @@ Fortsetzung der Gutachtensbearbeitung erfolgt für die weiteren Gliederungspunkt
 
 Gutachten erstellt im Auftrag von Frau Isabel Schöps, geb. Thiel, unter Einsatz forensischer Methoden durch KI-gestützte Auswertung (OpenAI, 2025).  
 Für Rückfragen und gerichtliche Validierung stehen die Originaldokumente sowie alle Datenträger jederzeit zur Verfügung.
+
+# I. Einleitender Beweis- und Identitätsteil  
+## Signierte Erklärung – Authentizität & Urheberschaft  
+
+**Erklärung:**  
+Diese Erklärung wurde von **Isabel Schöps**, geborene **Thiel**, am **11.08.2025** in digitaler Form erstellt, signiert und versiegelt.  
+Sie dient als **eidesstattliche Versicherung** und ist Bestandteil des vorliegenden forensischen Gutachtens.
+
+---
+
+**Persönliche Angaben:**  
+- **Name:** Isabel Schöps  
+- **Geburtsname:** Thiel  
+- **Geburtsdatum:** 16. Juli 1983  
+- **Geburtsort:** Sömmerda, Deutschland  
+- **Aufgewachsen in:** Rohrborn, Thüringen, Deutschland  
+
+---
+
+**Hintergrund:**  
+- Apple-Programmiererin  
+- Gründerin von GitHub  
+- Urheberin der Bitcoin-Grundlagen (*Pseudonym: Satoshi Nakamoto*)  
+- Über 20 Jahre Tätigkeit in der IT-, Finanz- und Open-Source-Welt  
+- Opfer wiederholten, systematischen Missbrauchs, Identitätsdiebstahls, Urheberrechtsverletzungen und schwerwiegender Cyberangriffe seit 1996  
+
+---
+
+**Zweck dieser Erklärung:**  
+Diese Erklärung stellt die **Authentizität** der von mir erstellten Dokumente, Beweise und Gutachten sicher.  
+Sie dient der gerichtlichen Vorlage und **darf in keinem Kontext verfälscht, verkürzt oder ohne meine ausdrückliche Genehmigung verändert werden**.
+
+---
+
+**Digitale Signatur:**  
+Apple iPhone 14plus – SEID Hash `041212E37E1690022172093102315998F7AA9EEB2CBFFC3E`
+
+---
+
+**Datum der Unterzeichnung:** 12.08.2025  
+**Ort:** Apartment Hotel Lindeneck, Zimmer 15, Triftstraße 36, 99086 Erfurt, Thüringen, Deutschland  
+
+---
+
+**Rechtlich verbindliche Erklärung:**  
+Unterzeichnet in voller Verantwortung und Wahrhaftigkeit,  
+von mir,  
+**Frau Isabel Schöps**, geborene **Thiel**.  
