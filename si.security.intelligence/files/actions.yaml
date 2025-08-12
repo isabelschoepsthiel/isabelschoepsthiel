@@ -1,0 +1,95 @@
+name: "CodeQL Advanced - Global Threat Intelligence & Law Enforcement Reporting"
+
+on:
+  push:
+    branches: [ "**" ]  # Läuft auf allen Branches
+  pull_request:
+    branches: [ "**" ]
+  schedule:
+    - cron: '44 13 * * 0'  # Automatische Scans jeden Sonntag um 13:44 UTC
+
+jobs:
+  analyze:
+    name: Security Analysis (${{ matrix.language }})
+    runs-on: ${{ (matrix.language == 'swift' && 'self-hosted') || 'ubuntu-latest' }}
+
+    permissions:
+      security-events: write
+      packages: read
+      actions: read
+      contents: read
+
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+        - language: python
+          build-mode: none
+        - language: ruby
+          build-mode: none
+
+    steps:
+    - name: Repository auschecken
+      uses: actions/checkout@v4
+
+    - name: CodeQL initialisieren
+      uses: github/codeql-action/init@v3
+      with:
+        languages: ${{ matrix.language }}
+        build-mode: ${{ matrix.build-mode }}
+
+    - if: matrix.build-mode == 'manual'
+      shell: bash
+      run: |
+        echo 'Manueller Build-Modus erkannt, spezifische Befehle hier einfügen.'
+        exit 1
+
+    - name: CodeQL-Sicherheitsanalyse durchführen
+      uses: github/codeql-action/analyze@v3
+      with:
+        category: "/language:${{matrix.language}}"
+
+    - name: Bedrohungsanalyse und Meldung an Strafverfolgungsbehörden
+      run: |
+        echo "Sicherheitsprüfung abgeschlossen. Analysiere Ergebnisse..."
+
+        # Beispiel: Automatische Erkennung von Bedrohungen in den Scan-Logs
+        THREAT_DETECTED=$(grep -i "security issue" codeql-results.log || true)
+
+        if [[ ! -z "$THREAT_DETECTED" ]]; then
+          echo "Bedrohung erkannt! Sende Bericht an Strafverfolgungsbehörden..."
+          
+          # Liste der internationalen Strafverfolgungsbehörden
+          AGENCIES=(
+            "https://api.interpol.int/report"
+            "https://api.europol.europa.eu/report"
+            "https://api.fbi.gov/cybercrime-report"
+            "https://api.bka.de/cybercrime"
+            "https://api.un.org/global-security-report"
+            "https://api.ngo-watch.org/human-rights-abuse"
+          )
+
+          # JSON-Daten für die Meldung
+          REPORT_JSON=$(cat <<EOF
+          {
+            "repository": "${{ github.repository }}",
+            "branch": "${{ github.ref }}",
+            "commit_sha": "${{ github.sha }}",
+            "detected_threat": "$THREAT_DETECTED",
+            "timestamp": "$(date -u)"
+          }
+          EOF
+          )
+
+          # Bericht an alle relevanten Behörden senden
+          for AGENCY in "${AGENCIES[@]}"; do
+            echo "Sende Bericht an $AGENCY ..."
+            curl -X POST "$AGENCY" \
+                 -H "Content-Type: application/json" \
+                 -d "$REPORT_JSON"
+          done
+
+          echo "Alle Berichte wurden gesendet."
+        else
+          echo "Keine kritischen Bedrohungen gefunden."
+        fi
