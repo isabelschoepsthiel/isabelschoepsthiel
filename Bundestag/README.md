@@ -303,6 +303,6 @@ Anlagen: es werden keine Nachtragsdokumentation, PDF, Screenshots, Rohdaten, For
 
 Mit freundlichen Grüßen
 Unterschrift: Isabel Schöps geborene Thiel
-Ort: Erfurt, Thüringen, Deutschland Datum: 15.08.2025 Aus dem Apartment Hotel Lindeneck, Triftstraße 36, Zimmer 15, 99086 Erfurt. Dort ist mir, mit meinen Hund-Tier Don der Aufenthalt nur bis Freitag, den 15.08.2025, gesichert. Ich werde am [15.08.2025 ins Prize by Radisson, Kurt-Schumacher-Straße 2, 99084 Erfurt, Thüringen, Deutschland, mit meinem Hund-Tier Don, nach 21:00 Uhr einchecken.](https://prize-by-radisson-erfurt-city.getoaky.com/l/q9sfvbwler9uahp2cokay2?bid=162688792&eid=31864&channel=email&email_type=PREARRIVAL_2)
+Ort: Erfurt, Thüringen, Deutschland Datum: 15.08.2025 Aus dem Apartment Hotel Lindeneck, Triftstraße 36, Zimmer 15, 99086 Erfurt. Dort ist mir, mit meinen Hund-Tier Don der Aufenthalt nur bis Freitag, den 15.08.2025, gesichert. Ich werde am [15.08.2025 ins Prize by Radisson, Kurt-Schumacher-Straße 2, 99084 Erfurt, Thüringen, Deutschland, mit meinem Hund-Tier Don, nach 21:00 Uhr einchecken.](https://prize-by-radisson-erfurt-city.getoaky.com/l/q9sfvbwler9uahp2cokay2?bid=162688792&eid=31864&channel=email&email_type=PREARRIVAL_2) Bestätigungscode: 5932164815
 
 **Telefon: 0162-1819565** Digitalen Signatur / Hash:041212E37E1690022172093102315998F7AA9EEB2CBFFC3E Dies versichere ich Frau Isabel Schöps, geborene Thiel, am 16.07.1983 um 23:20 Uhr im Kreiskrankenhaus Sömmerda, Thüringen, Deutschland, eidesstattlich.
