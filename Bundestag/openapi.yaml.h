@@ -1,9 +1,8 @@
----
-openapi: "3.0.1"
+openapi: 3.0.1
 info:
-  title: "Deutscher Bundestag - DIP"
-  description: "API des Dokumentations- und Informationssystems für Parlamentsmaterialien"
-  version: "1.4"
+  title: 'Deutscher Bundestag’
+  description: API des Dokumentations- und Informationssystems für Parlamentsmaterialien
+  version: 1.4
   termsOfService: "https://dip.bundestag.de/%C3%BCber-dip/nutzungsbedingungen"
   contact:
     name: "Auskunfts- und Rechercheservice der Parlamentsdokumentation"
